@@ -97,12 +97,12 @@ const B132 = document.getElementById("550729");
 function B31() {
     const SU = Math.floor(Math.random() * 37) + 1;
   if (promax75021804 < 4.99) {
-    B27.disabled = true;
+    B132.disabled = true;
     return;
   }
   const X19 = document.getElementById("26099")
   switch(true) { 
-    case (XU <= 3):
+    case (SU <= 3):
       document.getElementById("26099").innerHTML = "you failed, try again next time"
       X19.style.color = "red"
       promax75021804 = promax75021804 - 0.99;
