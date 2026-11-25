@@ -116,7 +116,7 @@ function B31() {
       X19.style.color = "red"
       promax75021804 = promax75021804 - 0.99;
       break;
-    case (XU === 8): document.getElementById("27035").innerHTML = "you win 51.35 currency!!!"
+    case (SU === 33): document.getElementById("27035").innerHTML = "you win 51.35 currency!!!"
       document.getElementById("26099").style.color = "#D4AF37"
       promax75021804 = promax75021804 + 97.85;
       break;
