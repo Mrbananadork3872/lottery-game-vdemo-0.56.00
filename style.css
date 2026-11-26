@@ -7,14 +7,16 @@ a {
   overflow: scroll;
   color: blue;
   background-color: black;
-  font-family: Cursive;
+  font-family: "Space Grotesk", sans-serif;
+  font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: antialiased;
   align-items: center;
   border: 99px solid black
-  border-radius: 20%;
-  
+  border-radius: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   align-self: flex-start;
   flex-direction: column;
-  display: none;
+  display: none; 
 }
 #id {
  border: 5px solid white;
@@ -22,6 +24,8 @@ a {
   text-align: center;
   list-style-position: inside;
 
+}
+#\34 3046721 {
 }
 #G46, 
 #G47, 
@@ -93,6 +97,10 @@ button {
 }
 #\36 30268 {
   margin: 20px;
+}
+#\34 40201 {
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
 }
 .kool {
  margin: 0px; 

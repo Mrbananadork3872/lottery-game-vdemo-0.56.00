@@ -1,5 +1,6 @@
 let promax75021804 = 4.00 
 const IPHONE18PROMAX = document.getElementById("4782969");
+const B200Ultimate = document.querySelectorAll("Btag64");
 document.getElementById("43046721").innerHTML = "your balance: " + promax75021804.toFixed(2);
 
 function AK47() {
@@ -9,10 +10,6 @@ function AK47() {
     document.getElementById("706259").innerHTML = "!!BANKRUPT!!"
     IPHONE18PROMAX.disabled = true;
     return;
-  } else {
-    document.getElementById("706259").innerHTML = "" 
-  IPHONE18PROMAX.disabled = false;
-  return;
   }
   
   switch(true) { 
@@ -101,56 +98,57 @@ function B31() {
     return;
   }
   const X19 = document.getElementById("26099")
-  switch(true) { 
-    case (XU <= 3):
-      document.getElementById("26099").innerHTML = "you failed, try again next time"
-      X19.style.color = "red"
-      promax75021804 = promax75021804 - 0.99;
-    break;     
+  switch(true) {      
     case ( SU > 27 && SU <= 31):
       document.getElementById("26099").innerHTML = "you win 51.35 currency!"
       X19.style.color = "green"
       promax75021804 = promax75021804 + 51.35;
     break;
-    case (SU <= 27): document.getElementById("27035").innerHTML = "you failed, try again next time"
+    case (SU > 33):
+    default: document.getElementById("26099").innerHTML = "you failed, try again next time"
       X19.style.color = "red"
-      promax75021804 = promax75021804 - 0.99;
+      promax75021804 = promax75021804 - 4.99;
       break;
-    case (XU === 8): document.getElementById("27035").innerHTML = "you win 51.35 currency!!!"
+    case (SU === 33): document.getElementById("26099").innerHTML = "you win 97.85 currency!!!"
       document.getElementById("26099").style.color = "#D4AF37"
       promax75021804 = promax75021804 + 97.85;
       break;
   }
+  B132.disabled = true;
   document.getElementById("43046721").innerHTML = "your balance: " + promax75021804.toFixed(2);
+}
+  function I23() {
 if (promax75021804 < 4.99) {
-  document.getElementById("26099").innerHTML = "cant use this machine; insufficient cash of " + (4.99 - promax75021804.toFixed(2))
-  B27.disabled = true;
- } else if (promax75021804 => 4.99) {
-  document.getElementById("706258").innerHTML = ""
-  B31.disabled = false;
-  return;
- }
-if (promax75021804 > 0.99 ) {
-  document.getElementById("706258").innerHTML = ""
-  B31.disabled = false;
-}  
-}  
+  document.getElementById("706257").innerHTML = "cant use this machine; insufficient cash of " + (4.99 - promax75021804.toFixed(2))
+  B132.disabled = true;
+ } else {
+  document.getElementById("706257").innerHTML = ""
+  B132.disabled = false;
+ } 
+}
 B132.addEventListener("click", B31);
+B200Ultimate.forEach((B200) => {
+  B200.addEventListener("click", I23)
+});
+
+
+let T133a = null;
+IPHONE18PROMAX.addEventListener("click", K153A);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+function K153A() {
+  if (T133a !== null) {
+    clearInterval(T133a);
+T133a = null;
+  } else {
+    T133a = setInterval(K153, 6740); 
+  }
+function K153() {
+  document.getElementById("14348907").innerHTML = "refreshed!"
+  document.getElementById("14348907").style.color = "gray"
+ }
+}
 
 
 
@@ -186,6 +184,7 @@ function R782s() {
   }
   if (promax75021804 < 1.19) {
     document.getElementById("475205").innerHTML = "you dont have enough money, you are short by " + (1.19 - promax75021804.toFixed(2))
+    G091.disabled = true;
   }
   return;
 }
@@ -213,9 +212,13 @@ function X231() {
 }
 A587.addEventListener("click", X231);
 setInterval(K152, 5000);
+setInterval(K152B, 7900);
 function K152() {
   document.getElementById("440201").innerHTML = "+0.05R!";
-  promax75021804 = promax75021804 + 0.05;
+ promax75021804 = promax75021804 + 0.05;
   document.getElementById("43046721").innerHTML = "your balance: " + promax75021804.toFixed(2);
   return;
+}
+function K152B() {
+  document.getElementById("440201").innerHTML = "";
 }
