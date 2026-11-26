@@ -105,3 +105,10 @@ button {
  margin: 0px; 
   padding: 0px;
 }
+#\32 6099,
+  #\32 7035, 
+  #\31 4348907 {
+    transition-property: 
+    color;
+    transition-duration: 0.6s;
+  }
